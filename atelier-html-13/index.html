@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intégration HTML/CSS - Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-menu" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand logo" href="#"></a>
+				</div>
+				<div id="top-menu" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav dropdown">
+						<li><a href="#">Agenda</a></li>
+						<li><a href="#">Dossier</a></li>
+						<li class="active"><a href="#">Société</a></li>
+						<li><a href="#">Inscription</a></li>
+						<li><a href="#">Contact</a></li>
+						<li>
+							<div class="btn-group btn-formation">
+			                     <button type="button" class="btn btn-violet wide">Les offres de formation</button>
+			                     <button type="button" class="btn btn-violet compact radius">Les offres..</button>
+
+			                    <button type="button" class="btn btn-violet dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                         <span class="caret"></span>
+			                         <span class="sr-only">Toggle Dropdown</span>
+			                    </button>
+
+			                    <ul class="dropdown-menu">
+			                  	  	<li><a href="#">Action</a></li>
+			                    	<li><a href="#">Another action</a></li>
+			    					<li><a href="#">Something else here</a></li>
+			    					<li><a href="#">Separated link</a></li>
+			 					</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+        </nav>
+        <div class="container info">
+        	<div class="row">
+        		<div class="col-md-6">
+        			France Action Locale, organisme de formation des élus et agents terriotoriaux 
+        		</div>
+        		<div class="col-md-6 nopadding">
+	        		<ul>
+		        		<li><a href="#">Accueil</a></li>
+		        		<li><a href="#">formation sur mesure</a></li>
+		        		<li><a href="#">E-Learning</a></li>
+		        		<li>
+		        			<a  href="#"> 
+		        				<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+		        				00 11 22 33 44 55
+		        			</a>
+		        		</li>
+		        	</ul>
+        		</div>
+        	</div>
+        </div>
+	</header>
+	 	
+ 	<div class="container">
+    	<div class="row">
+    	<!-- Contenu -->
+        	<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 ">
+        		<div class="row slider">
+        			<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+        				<h2>Titre de la formation</h2>
+        				<p>Accenderat super his incitatum propositum ad nocendum aliqua mulier vilis, quae ad palatium ut poposcerat intromissa insidias,</p>
+        				<div class="hachure">
+        				 <button type="button" class="btn btn-violet btn-md ">Voir l'offre</button>
+        				 </div>
+        			</div>
+        			<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
+        				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	        				<ol class="carousel-indicators">
+	        					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	        					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	        					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	        				</ol>
+	        				<div class="carousel-inner" role="listbox">
+	        					<div class="item active">
+	        						<img src="images/img1.png" alt="imges1">
+	        						<div class="carousel-caption">
+	        						</div>
+	    						</div>
+	    						<div class="item ">
+	    							<img src="images/img2.jpg" alt="imges2">
+	    							<div class="carousel-caption">
+	    							</div>
+								</div>
+								<div class="item ">
+									<img src="images/img3.jpg" alt="imges3">
+									<div class="carousel-caption">
+									</div>
+								</div>
+							</div>
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						    </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
+				</div>
+				 <!--formation-->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="titre">
+					  		<span class="icon-formation"></span>
+					    	<h4> Les offres de formation</h4>
+				    	</div>
+				    </div>
+				</div>
+				<div class="row group">
+				    <div class="col-md-4">
+				        <img src="images/img5.png" height="142px" width="214px">	
+				        <h5>Incenderat autem audaces usque</h5>
+				        <p>ncenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus, Luscus quidam curator urbis subito visus: </p>
+				        <button type="button" class="btn btn-white  btn-sm"><b>Voir les offres</b></button>
+
+
+				    </div>
+				    <div class="col-md-4">
+				    	<img src="images/img6.png">	
+				        <h5>Elate distentis dives bonis omnibus</h5>
+				        <p>cuam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre  </p>
+				        <button type="button" class="btn btn-white  btn-sm "><b>Voir les offres</b></button>
+
+				    </div>
+				    <div class="col-md-4">
+						<img src="images/img7.png">	
+				        <h5>Amediam navigabile flumen </h5>
+				        <p>cuperatis Tauri montis verticibus qui ad solis ortum sublimius attolluntur, Cilicia spatiis porrigitur late distentis dives bonis omnibus terra, eiusque </p>
+				        <button type="button" class="btn btn-white  btn-sm "><b>Voir les offres</b></button>
+					</div>
+			    </div>
+                            <!--    <img src="images/test1.png" id="test2"> -->
+
+                <div class="row">
+                    <div class="col-lg-6"><p id="test"> >>Voir toutes les offres de formations</p></div>
+                    <div class="col-lg-3 col-lg-push-4"><img src="images/test1.png" id="test2"></div>              
+                </div>
+               
+              <div class="row">
+					<div class="col-lg-6">
+						<div class="learning">
+					    	<h4> E-learning</h4>
+				    	</div>
+                        <div class="row group2">
+                        <div class="col-lg-6">
+						<img src="images/test.png">	
+				        <h5>Amediam navigabile flumen </h5>
+				        <p>cuperatis Tauri montis verticibus qui ad solis ortum sublimius attolluntur, Cilicia spatiis porrigitur late distentis dives bonis omnibus terra, eiusque </p>
+				        <button type="button" class="btn btn-grey   btn-sm "><b>Voir les offres</b></button>
+					    </div>
+				    </div>
+ 
+                </div>
+                  
+            <div class="col-lg-6">
+						<div class="learning">
+					    	<h4> E-learning</h4>
+				    	</div>
+                        <div class="row group2">
+                        <div class="col-lg-6">
+						<img src="images/formation.png">	
+				        <h5>Amediam navigabile flumen </h5>
+				        <p>cuperatis Tauri montis verticibus qui ad solis ortum sublimius attolluntur, Cilicia spatiis porrigitur late distentis dives bonis omnibus terra, eiusque </p>
+				        <button type="button" class="btn btn-grey   btn-sm "><b>Voir les offres</b></button>
+					    </div>
+				    </div>
+ 
+                </div>  
+
+			</div> 
+            </div>
+
+    	<!-- side bar-->
+        	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 lg3"> 
+                <div class="row">
+                    <div class="col-lg-12">
+                <table>
+					<thead>
+					   <tr>
+						<th>Actualité</th>
+						</tr>
+					</thead>
+					<tbody>
+					   <tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					<tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					</tbody>	
+				</table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+				<div class="nav_tab2 resp"><p>Agenda</p></div>
+                        <div class="row">
+                <div class="col-lg-12">       
+				<div id="actu" class="resp2">
+				<table>
+					<tbody>
+					<tr><td><img src="img/bulle.png" alt="" id="fleche_bulle"><div class="detail">Mardi 1 février</div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					<tr><td><img src="img/bulle.png" alt="" id="fleche_bulle"><div class="detail">Mardi 1 février</div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					<tr><td><img src="img/bulle.png" alt="" id="fleche_bulle"><div class="detail">Mardi 1 février</div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					<tr><td><img src="img/bulle.png" alt="" id="fleche_bulle"><div class="detail">Mardi 1 février</div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					<tr><td><img src="img/bulle.png" alt="" id="fleche_bulle"><div class="detail">Mardi 1 février</div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at auctor leo, sit amet suscipit est.</p></td></tr>
+					</tbody>	
+				</table> 
+				</div>
+                    </div>
+                </div>
+        	</div>
+    	</div>	
+	</div>
+            <!-- slide -->
+  <div class="row">
+      <div class="col-lg-12">
+    <h4>Nos partenaires</h4>
+  </div>
+  </div>
+  <div class='row'>
+    <div class='col-lg-12 col-md-8'>
+      <div class="carousel slide media-carousel" id="media">
+        <div class="carousel-inner">
+          <div class="item  active">
+            <div class="row">
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>          
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/microsoft.png"></a>
+              </div>
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div> 
+                
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>
+                
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>
+                
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>    
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>          
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/microsoft.png"></a>
+              </div>
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div> 
+                
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>
+                
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>
+                
+              <div class="col-md-2">
+                <a class="thumbnail" href="#"><img alt="" src="images/pontoise.png"></a>
+              </div>            
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#media" class="left carousel-control pos"><img src="images/previous.png" class="rightfle"></a>
+        <a data-slide="next" href="#media" class="right carousel-control"><img src="images/Polygoned.png"></a>
+      </div> 
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

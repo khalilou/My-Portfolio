@@ -1,0 +1,107 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+h1 small{
+    display: block;
+    font-size: 55px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+h3 {
+    font-weight: 500;
+    font-style: italic;
+}
+header {
+    background: url(../images/bg-header.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #FFFFFF;
+}
+header .logo {
+    margin: 50px 10px 0 20px; 
+}
+header .logo img {
+    width: 50%;
+    margin: auto;
+}
+
+header .content {
+    padding: 40px 20px;
+}
+
+
+header .content p{
+   text-align: justify;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section .content{
+    background: url(../images/bg-section.png) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+section .title {
+    text-transform: uppercase;
+    color: #168ec3;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+section .title span {
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #168ec3;
+}
+
+section i {
+    color: #ed2123;
+}
+
+section article h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #168ec3;
+}
+section hr {
+    border-top: 2px solid #000000;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-style: normal;
+    color : #168ec3;
+}
+
+footer .links {
+    width: 70%;
+}
+
+footer .links a{
+    display: inline-block;
+    width: 49%;
+}
+
+footer .contact i {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .contact ul {
+    margin: 0;
+    padding: 0 0 20px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer .contact ul li{
+    list-style: none;
+}
